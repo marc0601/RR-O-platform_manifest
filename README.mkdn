@@ -132,7 +132,8 @@ The number before the letter G at the end specifies the amount of space CCache c
 ##### To build Resurrection Remix ROM
 
       $ cd ~/RR
-      $ . build/envsetup.sh && brunch <device>
+      $ . build/envsetup.sh 
+      $ LC_ALL=C brunch <device>
 
 ##### Obtaining the zip created from the build process
 To get the zip file that has been built, navigate to the following directory and find for the zip file:
