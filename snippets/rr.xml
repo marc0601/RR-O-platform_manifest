@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
+  <!-- device tree -->
+
+  <project name="ComicoTeam/android_device_samsung_n7100" path="device/samsung/n7100" remote="github" revision="lineage-15.1" />
+  <project name="acroreiser/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" revision="lineage-15.1" />
+  <project name="marc0601/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="lineage-15.1" />
+  <project name="encaro/RR7_android_hardware_samsung" path="hardware/samsung" remote="github" revision="RR7" />
+  <project name="LineageOS/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="lineage-15.1" />
+  <project name="LineageOS/android_external_stlport" path="external/stlport" remote="github" revision="lineage-15.1" />
+  <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="lineage-15.1" />
+
+
   <project path="android" name="ResurrectionRemix/platform_manifest" remote="rr" />
   <project path="build/make" name="ResurrectionRemix/android_build" remote="rr" >
     <copyfile src="core/root.mk" dest="Makefile" />
